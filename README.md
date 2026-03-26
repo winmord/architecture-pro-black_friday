@@ -2,6 +2,12 @@
 
 ## Как запустить
 
+Переходим в директорию итогового решения
+
+```shell
+cd sharding-repl-cache
+```
+
 Запускаем mongodb и приложение
 
 ```shell
@@ -11,7 +17,7 @@ docker compose up -d
 Заполняем mongodb данными
 
 ```shell
-./scripts/mongo-init.sh
+./scripts/sharding-repl-cache.sh
 ```
 
 ## Как проверить
@@ -33,3 +39,16 @@ curl --silent http://ifconfig.me
 ## Доступные эндпоинты
 
 Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+
+## Итоговая схема
+[Итоговая схема draw.io](diagrams/Итоговая%20схема.jpg)
+
+![scheme](diagrams/Итоговая%20схема.jpg)
+
+[Задание 7](task7.md)
+
+[Задание 8](task8.md)
+
+[Задание 9](task9.md)
+
+[Задание 10](task10.md)
